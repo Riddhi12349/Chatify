@@ -15,10 +15,6 @@ connectDB();
 
 app.use(express.json()); // to accept json data from front-end
 
-app.get("/", (req, res) => {
-  res.send("API is running");
-});
-
 //handling user-routes ; for login and signup page
 app.use("/api/user", userRoutes);
 app.use("/api/chat", chatRoutes);
