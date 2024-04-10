@@ -47,7 +47,8 @@ const server = app.listen(PORT, console.log(`Server Started on port ${PORT}`));
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "http://localhost:3000",
+  //  origin: "http://localhost:3000",
+      origin: "https://chatify-super.onrender.com",
   },
 });
 
