@@ -1,69 +1,37 @@
 {
   "name": "mern_stack_chatapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "real time chat app",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install --legacy-peer-deps --prefix backend && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend",
-    "start": "node backend/server.js",
-    "server": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "riddhi",
+  "license": "ISC",
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/layout": "^2.3.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/lab": "^5.0.0-alpha.170",
     "axios": "^1.6.8",
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
+    "lottie-react": "^2.4.0",
     "mongodb": "^6.5.0",
-    "mongoose": "^8.3.0",
+    "mongoose": "^8.3.1",
     "nodemon": "^3.1.0",
     "path": "^0.12.7",
-    "socket.io": "^4.7.5",
-    "@chakra-ui/icons": "^2.1.1",
-    "@chakra-ui/layout": "^2.3.1",
-    "@chakra-ui/react": "^2.8.2",
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
-    "@mui/lab": "^5.0.0-alpha.169",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.6.8",
-    "framer-motion": "^11.0.25",
-    "lottie-react": "^2.4.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "react-notification-badge": "^1.5.1",
     "react-router-dom": "^6.22.3",
-    "react-scripts": "5.0.1",
-    "react-scrollable-feed": "^2.0.1",
+    "react-scripts": "^5.0.1",
     "react-toastify": "^10.0.5",
-    "socket.io-client": "^4.7.5",
-    "web-vitals": "^2.1.4",
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest",
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all",
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version",
-    ]
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
-  },
-  "author": "",
-  "license": "ISC"
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  }
 }
