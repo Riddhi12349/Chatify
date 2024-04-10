@@ -43,7 +43,6 @@
     "socket.io-client": "^4.7.5",
     "web-vitals": "^2.1.4",
   },
-
   "eslintConfig": {
     "extends": [
       "react-app",
