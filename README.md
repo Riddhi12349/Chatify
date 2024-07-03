@@ -10,12 +10,8 @@ Uses Socket.io for real time communication and stores user details in encrypted 
 **Server:** Node JS, Express JS
 
 **Database:** Mongo DB
-  
-## Demo
 
-## [https://talk-a-tive.herokuapp.com/](https://talk-a-tive-7fgq.onrender.com)
-
-**Website UI**
+## Website UI
 ![Screenshot (2809)](https://github.com/Riddhi12349/Chatify/assets/91315409/9f5527cc-addc-4b0f-bcc5-cbcc0353afed)
 
 ## Run Locally
